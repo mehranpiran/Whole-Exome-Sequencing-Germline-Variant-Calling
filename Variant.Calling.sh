@@ -102,7 +102,7 @@ samtools flagstat sra_data.sam
 java -jar ~/apps/picard.jar MarkDuplicates INPUT=sra_data.bam OUTPUT=sra_data_dup.bam METRICS_FILE=dupmetrics.txt
 
 *************************
-link for explains about Picard
+Picard manual
 http://broadinstitute.github.io/picard/command-line-overview.html
 *************************
 
