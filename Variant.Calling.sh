@@ -9,14 +9,14 @@ $ tar -zxvf sratoolkit.2.9.2_ubuntu_64.tar.gz
 
 
 Run the programme for paired-end
-chipseq data
+
 $ ~/sratoolkit.2.9.2_ubuntu_64/bin/fastq-dump -I --split-files SRRXXXXXXX > treatment.fastq
 input data
 $ ~/sratoolkit.2.9.2_ubuntu_64/bin/fastq-dump -I --split-files SRRXXXXXXX > input.fastq
 
 
 Run the programme for single-end
-chipseq data
+
 $ ~/sratoolkit.2.9.2_ubuntu_64/bin/fastq-dump -z SRRXXXXXXX > treatment.fastq
 input data
 $ ~/sratoolkit.2.9.2_ubuntu_64/bin/fastq-dump -z SRRXXXXXXX > input.fastq 
